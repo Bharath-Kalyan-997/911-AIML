@@ -31,7 +31,7 @@ CREATE TABLE CallAssignments (
     FOREIGN KEY (ResponderID) REFERENCES Responders(ResponderID)
 );
 
--- Insert sample data
+-- Insert sampledata with refined variables
 INSERT INTO Calls (Timestamp, CallType, Description, Latitude, Longitude, City, ZipCode)
 VALUES 
 ('2024-12-01 14:30:00', 'Fire', 'House fire', 40.7128, -74.0060, 'New York', 10001),
