@@ -3,7 +3,7 @@ CREATE DATABASE EmergencyCallAnalysis;
 
 USE EmergencyCallAnalysis;
 
--- Create tables
+--table has been created
 CREATE TABLE Calls (
     CallID INT PRIMARY KEY AUTO_INCREMENT,
     Timestamp DATETIME,
